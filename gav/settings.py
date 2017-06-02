@@ -15,6 +15,8 @@ SPIDER_MODULES = ['gav.spiders']
 NEWSPIDER_MODULE = 'gav.spiders'
 COOKIES_ENABLED = False
 
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.37'
+
 ITEM_PIPELINES = {
     'gav.pipelines.GavPipeline': 1,
     'gav.pipelines.GavImagesPipeline': 2
